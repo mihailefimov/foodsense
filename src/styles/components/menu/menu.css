@@ -1,0 +1,18 @@
+.menu-itm .menu-icn {
+    position: relative;
+    left: 0;
+    transition: left .2s;
+}
+
+.menu-itm:hover .menu-title {
+    color: red;
+    transition: color 5s;
+}
+
+.menu-itm:hover .menu-icn {
+    left: 5px;
+}
+
+.menu-itm:hover .menu-title {
+    color: #ccc;
+}

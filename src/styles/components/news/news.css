@@ -1,0 +1,37 @@
+.news_img img{
+    width: 100%;
+    
+}
+.news_img{
+    border:1px solid grey;
+    padding: 4px;
+    transition: opacity 0.5s;
+}
+.news_title{
+    color: #34AC98;
+    margin-top: 10px;
+    transition: color 0.5s;
+
+}
+.news_title h3{
+    font-size: 16px;
+    
+}
+.news_text{
+    font-size: 14px;
+}
+.news_date{
+    margin-top:5px;
+    color: grey;
+    font-size: 14px;
+
+}
+.news_date a{
+    color: #34AC98;
+}
+.news_top:hover .news_title{ 
+    color:red;
+}
+.news_top:hover .news_img{ 
+    opacity: .8;
+}

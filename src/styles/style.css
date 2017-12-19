@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "components/menu/menu.css";
+@import "components/slider/slider.css";
+@import "components/subscribe/subscribe.css";
+@import "components/news/news.css";
+@import "components/footer/footer.css";
+.page{
+    padding-top: 100px;
+}
