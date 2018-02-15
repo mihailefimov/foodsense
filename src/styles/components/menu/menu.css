@@ -1,21 +1,7 @@
-
-.menu{
-    display: flex;
-    flex-direction: column;
-    
-}
-.menu-itm {
-    margin-top: 10px;
-    
-}
-.menu-itm:first-child{
-    margin-top: 0;
-} 
 .menu-itm .menu-icn {
     position: relative;
     left: 0;
     transition: left .2s;
-    
 }
 
 .menu-itm:hover .menu-title {
@@ -30,12 +16,3 @@
 .menu-itm:hover .menu-title {
     color: #ccc;
 }
-@media (max-width: 991px) {
-    .menu{
-        flex-direction: row;
-    }
-    .menu-itm {
-        margin-top: 0;
-    }
-
-  }

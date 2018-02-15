@@ -60,6 +60,9 @@
 .img_one img{
 width: 100%;
 }
+.twite{
+    border-bottom: 1px dashed #E5E5E5;
+}
 }
 .button{
     display: block;
